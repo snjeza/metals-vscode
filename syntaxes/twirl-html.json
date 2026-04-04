@@ -152,7 +152,7 @@
       "begin": "(@)([\\s]*[(][^)]*\\))(\\g<2>*)",
       "end": "(?:[\\s]*)[)]([\\s]*[(][^)]*[)])*",
       "beginCaptures": {
-        "1": { "patterns": [{ "include": "#keyword-at" }] },
+        "1": { "patterns": [{ "include": "#symbols-at" }] },
         "0": { "patterns": [{ "include": "source.scala" }] }
       },
       "endCaptures": { "0": { "patterns": [{ "include": "source.scala" }] } },
