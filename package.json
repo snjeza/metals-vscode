@@ -163,19 +163,16 @@
           "light": "icons/scalameta-logo.png"
         }
       },
-      {
-        "id": "twirl-html",
-        "aliases": [
-          "Twirl HTML"
-        ],
-        "extensions": [
-          ".scala.html"
-        ],
+			{
+				"id": "twirl-html",
+				"extensions": ["*.scala.html"],
+				"aliases": ["Twirl HTML"],
+				"configuration": "./language-configuration.json",
         "icon": {
           "dark": "icons/file_type_play.svg",
           "light": "icons/file_type_play.svg"
         }
-      },
+			},
       {
         "id": "twirl-xml",
         "aliases": [
