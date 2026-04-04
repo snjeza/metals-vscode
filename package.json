@@ -268,7 +268,7 @@
       },
       {
         "language": "twirl-html",
-        "scopeName": "text.html.twirl",
+        "scopeName": "source.twirl",
         "path": "./syntaxes/twirl-html.json",
         "embeddedLanguages": {
           "text.html.basic": "html"
