@@ -149,7 +149,7 @@
     },
     "twirl-template-params": {
       "name": "meta.embedded.twirl.templateHeader.parameters.ident",
-      "begin": "(@)([\\s]*[(][^)]*\\))(\\g<2>*)",
+      "begin": "(@)([\\s]+[(][^)]*\\))(\\g<2>*)",
       "end": "(?:[\\s]*)[)]([\\s]*[(][^)]*[)])*",
       "beginCaptures": {
         "1": { "patterns": [{ "include": "#symbols-at" }] },
